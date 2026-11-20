@@ -1,0 +1,20 @@
+# Dependencies and local environment
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Generated output and local backups
+generated-images/
+*-backup.*
+*backup*
+restart-server*
+
+# Local tests and generators
+test-*.js
+generate-review-ppt*.js
+PROJECT_VERIFICATION.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
